@@ -23,21 +23,37 @@
   
   The additional references that I will use to determine morphological characters states are listed here:
   Chen, Shou-liang, Li, De-Zhu, Zhu, Guanghua, Wu, Zhenlan, Lu, Sheng-lian, Liu, Liang, Wang, Zheng-ping, Sun, Bi-xing, Zhu, Zheng-de, Xia, Nianhe, Jia, Liang-zhi, Guo, Zhenhua, Chen, Wenli, Chen, Xiang, Yang, Guangyao, Phillips, Sylvia M., Stapleton, Chris, Soreng, Robert J., Aiken, Susan G., Tzvelev, Nikolai N., Peterson, Paul M., Renvoize, Stephen A., Olonova, Marina V., Ammann, Klaus. 2008. eFloras: Flora of China. St. Louis, Missouri & Harvard University Herbaria, Cambridge, Massachusetts .
+
 Chusquea arachniformis L.G.Clark & Londoño | Plants of the World Online | Kew Science2017. Available from http://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1005398-1.
+
 Clark L.G. 1996a. Six new species of Neurolepis (Poaceae: Bambusoideae: Bambuseae) from Ecuador and Peru. Novon. 6:335.
+
 Clark L.G. 1996b. Four new species of Chusquea (Poaceae: Bambusoideae) from Brazil and Ecuador. Brittonia. 48:250.
+
 Clark, Lynn G. 2007a. Chusquea bambusoides. Available from https://www.eeob.iastate.edu/research/bamboo/keys/Rettbergia/C.%20bambusoides/Chusquea%20bambusoides.htm.
+
 Clark, Lynn G. 2007b. Chusquea oligophylla Ruprecht. Available from https://www.eeob.iastate.edu/research/bamboo/keys/Rettbergia/C.%20oligophylla/Chusquea%20oligophylla.htm.
+
 Clark, Lynn G. 2007c. Chusquea oxylepis. Available from https://www.eeob.iastate.edu/research/bamboo/keys/Rettbergia/C.%20oxylepis/Chusquea%20oxylepis.htm.
+
 Clark, Lynn G. 2007d. Chusquea urelytra Hackel. Available from https://www.eeob.iastate.edu/research/bamboo/keys/Rettbergia/C.%20urelytra/Chusquea%20urelytra.htm.
+
 Clayton, W.D., Vorontsova, M., Harman, K.T., Williamson, H. 2016. RBG Kew: GrassBase - Chusquea magnifolia Description. Available from http://www.kew.org/data/grasses-db/www/imp06677.htm.
+
 Davidse G., Huber O. 1979. Notes on the flowering and life history of Neurolepis pittieri (Gramineae, Bambusoideae). Ann. Mo. Bot. Gard. 66:900.
+
 Emmet J. Judziewicz, Lynn G. Clark, Ximena Londoño, Margaret J. Stern. 1999. American Bamboos. Washington, D.C.: Smithsonian Institution Press.
+
 Guerreiro C., Olivera A.J.J., Vega A.S. 2019. Taxonomic revision of Chusquea subg. Magnifoliae and Chusquea subg. Platonia (Poaceae, Bambusoideae, Chusqueinae) in Peru. Syst. Bot. 44:798–809.
+
 Munro, W. 1870. A monograph of the Bambusaceae, including descriptions of all the species. Trans. Linn. Soc. Lond. 26:1–158.
+
 Ruiz-Sanchez E., Clark L.G., Londoño X., Mejía-Saulés T., Cortés G. 2015. Morphological keys to the genera and species of bamboos (Poaceae: Bambusoideae) of Mexico. Phytotaxa. 236:1.
+
 Tyrrell C.D. 2008. Systematics of the Neotropical woody bamboo genus Rhipidocladum (Poaceae: Bambusoideae). .
+
 Weakley A.S., Ludwig J.C., Townsend J.F. 2012. Flora of Virginia. Fort Worth: Botanical Research Institute of Texas Press.
+
 Young S.M., Judd W.S. 1992. Systematics of the Guadua angustifolia complex (Poaceae: Bambusoideae). Ann. Mo. Bot. Gard. 79:737.
 
 
