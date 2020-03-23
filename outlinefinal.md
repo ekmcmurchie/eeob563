@@ -23,7 +23,7 @@
   
   The additional references that I will use to determine morphological characters states are listed here:
 
-Chen, Shou-liang, Li, De-Zhu, Zhu, Guanghua, Wu, Zhenlan, Lu, Sheng-lian, Liu, Liang, Wang, Zheng-ping, Sun, Bi-xing, Zhu, Zheng-de,  Xia, Nianhe, Jia, Liang-zhi, Guo, Zhenhua, Chen, Wenli, Chen, Xiang, Yang, Guangyao, Phillips, Sylvia M., Stapleton, Chris, Soreng, Robert J., Aiken, Susan G., Tzvelev, Nikolai N., Peterson, Paul M., Renvoize, Stephen A., Olonova, Marina V., Ammann, Klaus. 2008. eFloras: Flora of China. St. Louis, Missouri & Harvard University Herbaria, Cambridge, Massachusetts.
+Chen, Shou-liang, Li, De-Zhu, Zhu, Guanghua, Wu, Zhenlan, Lu, Sheng-lian, Liu, Liang, Wang, Zheng-ping, Sun, Bi-xing, Zhu, Zheng-de,  Xia, Nianhe, Jia, Liang-zhi, Guo, Zhenhua, Chen, Wenli, Chen, Xiang, Yang, Guangyao, Phillips, Sylvia M., Stapleton, Chris, Soreng, Robert J., Aiken, Susan G., Tzvelev, Nikolai N., Peterson, Paul M., Renvoize, Stephen A., Olonova, Marina V., Ammann, Klaus. 2008. eFloras: Flora of China. St. Louis, Missouri & Harvard University Herbaria, Cambridge, Massachusetts. Available from http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=242307754.
 
 Chusquea arachniformis L.G.Clark & Londoño | Plants of the World Online | Kew Science2017. Available from http://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1005398-1.
 
