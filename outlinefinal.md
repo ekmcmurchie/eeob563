@@ -21,7 +21,11 @@
   
   **References**
   
-  The additional references that I will use to determine morphological characters states are listed here:
+ Clark L.G., Dransfield S., Triplett J., Sánchez-Ken J.G. 2007. Phylogenetic relationships among the one-flowered, determinate genera of Bambuseae (Poaceae: Bambusoideae). Aliso J. Syst. Evol. Bot. 23:315–332.
+ 
+ Fisher A.E., Triplett J.K., Ho C.-S., Schiller A.D., Oltrogge K.A., Schroder E.S., Kelchner S.A., Clark L.G. 2009. Paraphyly in the bamboo subtribe Chusqueinae (Poaceae: Bambusoideae) and a revised infrageneric classification for Chusquea. Syst. Bot. 34:673–683.
+ 
+ The additional references that I will use to determine morphological characters states are listed here:
 
 Chen, Shou-liang, Li, De-Zhu, Zhu, Guanghua, Wu, Zhenlan, Lu, Sheng-lian, Liu, Liang, Wang, Zheng-ping, Sun, Bi-xing, Zhu, Zheng-de,  Xia, Nianhe, Jia, Liang-zhi, Guo, Zhenhua, Chen, Wenli, Chen, Xiang, Yang, Guangyao, Phillips, Sylvia M., Stapleton, Chris, Soreng, Robert J., Aiken, Susan G., Tzvelev, Nikolai N., Peterson, Paul M., Renvoize, Stephen A., Olonova, Marina V., Ammann, Klaus. 2008. eFloras: Flora of China. St. Louis, Missouri & Harvard University Herbaria, Cambridge, Massachusetts. Available from http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=242307754.
 
