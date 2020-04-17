@@ -1,0 +1,17 @@
+#NEXUS
+
+Begin trees;  [Treefile saved Fri Apr 10 19:16:21 2020]
+[!
+>Consensus of 1000 trees
+>
+>Source of trees from which consensus(es) calculated...
+>
+>Processing TREES block from file: ~/eeob563/bambootreeII.tre
+>  Keeping: trees from file (replacing any trees already in memory)
+>
+>  1000 trees read from file
+>
+>  Time used = 20.51 sec (CPU time = 0.02 sec)
+]
+        tree MajRule = [&U] ((((((Neurolepis_asymmetrica,((Neurolepis_nana,Neurolepis_rigida)63,Neurolepis_villosa)89.5)63,Neurolepis_stuebelii)81.2,((Chusquea_bradei,Chusquea_arachniformis,Chusquea_urelytra)100,Chusquea_oxylepis,Chusquea_bambusoides)100,Chusquea_oligophylla)55,Chusquea_serpens)60.4,(Neurolepis_elata,Neurolepis_virgata,(Neurolepis_aperta,Neurolepis_pittieri)99.9)61,Chusquea_tessellata,Chusquea_scandens)65.3,((Neurolepis_aristata,Neurolepis_weberbaueri)100,Neurolepis_nobilis)94.6,Chusquea_coronalis,((((Arundinaria_gigantea,Otatea_acuminata)100,Guadua_angustifolia)93.4,Rhipidocladum_pittieri)99.9,Bambusa_vulgaris)100)0;
+end;
