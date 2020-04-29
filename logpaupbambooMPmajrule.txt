@@ -1,0 +1,571 @@
+
+Running on Intel(R) 64 architecture
+SSE vectorization enabled
+SSSE3 instructions supported
+Multithreading enabled for likelihood using Pthreads
+Compiled using GNU C compiler (gcc) 4.4.7
+
+paup> exe bamboo.txt
+
+Processing of file "~/eeob563/bamboo.txt" begins...
+
+Data matrix has 27 taxa, 20 characters
+
+Valid character-state symbols: 01234
+Missing data identified by '?'
+Gaps identified by '-'
+
+Processing of input file "bamboo.txt" completed.
+
+paup> log file=bamboo_bootstrap.log
+
+        -----------------------------NOTICE-----------------------------
+          This is a test version that is still changing rapidly.
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+Logging output to file "~/eeob563/bamboo_bootstrap.log".
+
+paup> outgroup Arundinaria_gigantea; set outroot=mono;
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 26
+
+paup> bootstrap nreps=1000 treefile=bambooboot.tre search=heuristic /start=stepwise addseq=random nreps=10 swap=TBR;
+
+Bootstrap method with heuristic search:
+  Number of bootstrap replicates = 1000
+  Starting seed = generated automatically
+  Number of characters resampled in each replicate = 20
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 20 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        1 character is parsimony-uninformative
+        Number of parsimony-informative characters = 19
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 10
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+The limit of 100 trees (= 'Maxtrees') has been reached.  Do you want to increase Maxtrees?
+
+Do you want to increase 'Maxtrees'? (Y/n)Y
+
+Enter new value for 'Maxtrees' (200):1000
+
+Action if limit is hit:
+   (1) Prompt for new value
+   (2) Automatically increase by 100 (= AUTOINC)
+   (3) Leave unchanged, and don't prompt
+(1)>1
+
+The limit of 1000 trees (= 'Maxtrees') has been reached.  Do you want to increase Maxtrees?
+
+Do you want to increase 'Maxtrees'? (Y/n)Y
+
+Enter new value for 'Maxtrees' (1100):2000
+
+Action if limit is hit:
+   (1) Prompt for new value
+   (2) Automatically increase by 100 (= AUTOINC)
+   (3) Leave unchanged, and don't prompt
+(1)>1
+
+The limit of 2000 trees (= 'Maxtrees') has been reached.  Do you want to increase Maxtrees?
+
+Do you want to increase 'Maxtrees'? (Y/n)Y
+
+Enter new value for 'Maxtrees' (2100):10000
+
+Action if limit is hit:
+   (1) Prompt for new value
+   (2) Automatically increase by 100 (= AUTOINC)
+   (3) Leave unchanged, and don't prompt
+(1)>1
+
+The limit of 10000 trees (= 'Maxtrees') has been reached.  Do you want to increase Maxtrees?
+
+Do you want to increase 'Maxtrees'? (Y/n)Y
+
+Enter new value for 'Maxtrees' (10100):50000
+
+Action if limit is hit:
+   (1) Prompt for new value
+   (2) Automatically increase by 100 (= AUTOINC)
+   (3) Leave unchanged, and don't prompt
+(1)>1
+
+The limit of 50000 trees (= 'Maxtrees') has been reached.  Do you want to increase Maxtrees?
+
+Do you want to increase 'Maxtrees'? (Y/n)n
+
+
+zz
+quit
+^[
+
+
+
+kill
+^C
+Do you really want to stop the search? (Y/n)Y
+
+  Bootstrap aborted after 129 replicate(s)
+  Time used = 00:54:51 (CPU time = 00:53:37.7)
+
+Trees for each replicate written to treefile: ~/eeob563/bambooboot.tre
+
+Bootstrap 50% majority-rule consensus tree
+
+                                      /-------------------------------------------------------- Neurolepis asymmetrica(1)
+                                      |
+                                      +-------------------------------------------------------- Neurolepis nana(2)
+                                      |
+                                      +-------------------------------------------------------- Neurolepis rigida(3)
+                                      |
+                                      +-------------------------------------------------------- Neurolepis villosa(4)
+                                      |
+                                      +-------------------------------------------------------- Neurolepis aristata(5)
+                                      |
+                                      +-------------------------------------------------------- Neurolepis elata(6)
+                                      |
+                                      +-------------------------------------------------------- Neurolepis nobilis(7)
+                                      |
+                                      +-------------------------------------------------------- Neurolepis stuebelii(8)
+                                      |
+                                      +-------------------------------------------------------- Bambusa vulgaris(10)
+                                      |
+                                      +-------------------------------------------------------- Rhipidocladum pittieri(11)
+                                      |
+                                      +-------------------------------------------------------- Guadua angustifolia(12)
+                                      |
+                                      +-------------------------------------------------------- Neurolepis virgata(14)
+                   /--------52--------+
+                   |                  +-------------------------------------------------------- Neurolepis aperta(15)
+                   |                  |
+                   |                  +-------------------------------------------------------- Neurolepis weberbaueri(16)
+                   |                  |
+                   |                  +-------------------------------------------------------- Neurolepis pittieri(17)
+                   |                  |
+                   |                  +-------------------------------------------------------- Chusquea serpens(18)
+                   |                  |
+                   |                  +-------------------------------------------------------- Chusquea coronalis(19)
+                   |                  |
+                   |                  +-------------------------------------------------------- Chusquea tessellata(20)
+                   |                  |
+/------------------+                  +-------------------------------------------------------- Chusquea scandens(21)
+|                  |                  |
+|                  |                  |                                    /------------------- Chusquea bradei(22)
+|                  |                  |                                    |
+|                  |                  |                                    +------------------- Chusquea oxylepis(24)
+|                  |                  |                                    |
+|                  |                  |                 /--------67--------+------------------- Chusquea bambusoides(25)
+|                  |                  |                 |                  |
+|                  |                  |                 |                  +------------------- Chusquea arachniformis(26)
+|                  |                  \-------61--------+                  |
+|                  |                                    |                  \------------------- Chusquea urelytra(27)
+|                  |                                    |
+|                  |                                    \-------------------------------------- Chusquea oligophylla(23)
+|                  |
+|                  \--------------------------------------------------------------------------- Otatea acuminata(13)
+|
+\---------------------------------------------------------------------------------------------- Arundinaria gigantea(9)
+
+Bipartitions found in one or more trees and frequency of occurrence (bootstrap support values):
+
+         1         2      2
+123456789012345678901234567          Freq        %
+--------------------------------------------------
+.....................*.****         86.33   66.92%
+.....................******         78.18   60.60%
+........*...*..............         67.54   52.36%
+.....................*...**         60.45   46.86%
+........*****..............         59.94   46.47%
+.................*...******         57.52   44.59%
+........**..*..............         51.26   39.74%
+.......................**.*         46.90   36.36%
+..............*.*..........         45.66   35.39%
+......*........*...........         43.87   34.01%
+........*****....**********         37.77   29.28%
+...**......................         36.51   28.30%
+.....................*...*.         35.43   27.46%
+........***.*..............         35.23   27.31%
+..........*.*..............         34.04   26.39%
+..................*.*......         28.62   22.19%
+........*.*.*..............         27.75   21.52%
+.................**********         26.49   20.53%
+........*.***..............         24.20   18.76%
+.....*.*...................         23.55   18.26%
+........**.................         22.06   17.10%
+.................*..*******         21.38   16.57%
+........**.**..............         21.30   16.51%
+...**.*........*...........         20.19   15.65%
+.......................**..         19.70   15.28%
+.................*...*.****         18.67   14.48%
+.**...........*.*..........         18.13   14.06%
+.....**....................         18.04   13.99%
+........******.............         17.94   13.91%
+.....***.......*...........         17.27   13.39%
+.................**.*******         17.15   13.30%
+........**..*.....*........         17.05   13.22%
+.....***...................         16.90   13.10%
+.....***......**...........         16.70   12.95%
+....*.*........*...........         16.23   12.58%
+.**..*.********.***********         14.78   11.46%
+........******...**********         13.72   10.64%
+.....*..******...**********         13.40   10.39%
+..........**...............         13.37   10.37%
+........***.*....**********         13.32   10.32%
+..................***......         13.08   10.14%
+........***.*.....*........         13.06   10.13%
+........*****....**.*******         11.92    9.24%
+..................**.......         11.65    9.03%
+...***..******...**********         11.27    8.74%
+..*****.*******************         10.80    8.37%
+...**...******...**********         10.26    7.95%
+........**..*.....*.*......         10.25    7.95%
+...****.******.*.**********          9.91    7.69%
+........*..**..............          9.90    7.67%
+...**..........*...........          9.76    7.56%
+.**..**********.***********          9.71    7.53%
+........***.*....**.*******          9.27    7.19%
+.....*..*******.***********          8.97    6.96%
+.******.*******************          8.76    6.79%
+.***..........*.*..........          8.68    6.73%
+........*****.....***......          8.62    6.68%
+....*..........*...........          8.38    6.49%
+........*****.....*........          8.31    6.44%
+.........*.*...............          8.16    6.33%
+........******...*.........          8.12    6.30%
+.....**.*******.***********          8.07    6.26%
+........***.*.....*.*......          7.96    6.17%
+.*..............*..........          7.65    5.93%
+..........*......*...******          7.57    5.87%
+........*****....*.........          7.43    5.76%
+.**........................          7.23    5.61%
+.....**........*...........          7.08    5.49%
+.....*.............*.......          7.06    5.47%
+........*****....****......          6.84    5.30%
+..*...........*............          6.64    5.14%
+
+3034 groups at (relative) frequency less than 5% not shown
+
+paup> savetrees file=bootMajRulebamboo.tree from=1 to=1 savebootp=nodelabels;
+
+1 tree saved to file "~/eeob563/bootMajRulebamboo.tree"
+
+paup> gettrees file=bambooboot.tre StoreTreeWts=yes mode=3;
+
+Processing TREES block from file: ~/eeob563/bambooboot.tre
+  Keeping: trees from file (replacing any trees already in memory)
+
+The limit of 50000 trees (= 'Maxtrees') has been reached.  Do you want to increase Maxtrees?
+
+Do you want to increase 'Maxtrees'? (Y/n)n
+
+  50000 trees read from file
+
+  Note: Storage of branch-lengths for input trees requires approximately 20 MB of memory.  If you don't intend to use
+        these branch lengths, you can save some memory by requesting "Set storeBrlens=no;" prior to processing the Trees
+        block, or using "storeBrlens=no" in a GetTrees command.
+
+  Time used = 5.39 sec (CPU time = 0.83 sec)
+
+paup> contree all/strict=no majrule=yes usetreewts=yes treefile=bamboobootMajRule.tre;
+
+50% Majority-rule consensus of 50000 trees (using tree weights, sum = 1)
+
+                                                                                  /------------ Neurolepis asymmetrica(1)
+                                                                       /----68----+
+                                                                       |          \------------ Neurolepis nana(2)
+                                                                       |
+                                                                       +----------------------- Neurolepis rigida(3)
+                                                                       |
+                                                                       +----------------------- Neurolepis villosa(4)
+                                                                       |
+                                                                       +----------------------- Neurolepis aristata(5)
+                                                                       |
+                                                                       |          /------------ Neurolepis elata(6)
+                                                                       |          |
+                                                                       |          +------------ Neurolepis nobilis(7)
+                                                           /----93-----+          |
+                                                           |           +----84----+------------ Neurolepis stuebelii(8)
+                                                           |           |          |
+                                                           |           |          +------------ Neurolepis aperta(15)
+                                                           |           |          |
+                                                           |           |          \------------ Neurolepis weberbaueri(16)
+                                               /----60-----+           |
+                                               |           |           +----------------------- Guadua angustifolia(12)
+                                               |           |           |
+                                               |           |           +----------------------- Neurolepis virgata(14)
+                                               |           |           |
+                                               |           |           \----------------------- Neurolepis pittieri(17)
+                                               |           |
+                                               |           \----------------------------------- Chusquea tessellata(20)
+                                               |
+                                               |           /----------------------------------- Rhipidocladum pittieri(11)
+                                               |           |
+                                               |           +----------------------------------- Chusquea serpens(18)
+                                               |           |
+                                   /----50-----+           |           /----------------------- Chusquea bradei(22)
+                                   |           +----61-----+           |
+                                   |           |           |           +----------------------- Chusquea oligophylla(23)
+                                   |           |           |           |
+                                   |           |           |           |          /------------ Chusquea oxylepis(24)
+                                   |           |           \----100----+          |
+                                   |           |                       +---100----+------------ Chusquea bambusoides(25)
+                        /----69----+           |                       |          |
+                        |          |           |                       |          \------------ Chusquea urelytra(27)
+                        |          |           |                       |
+                        |          |           |                       \----------------------- Chusquea arachniformis(26)
+            /----70-----+          |           |
+            |           |          |           \----------------------------------------------- Chusquea scandens(21)
+            |           |          |
+            |           |          \----------------------------------------------------------- Chusquea coronalis(19)
+/-----------+           |
+|           |           \---------------------------------------------------------------------- Otatea acuminata(13)
+|           |
+|           \---------------------------------------------------------------------------------- Bambusa vulgaris(10)
+|
+\---------------------------------------------------------------------------------------------- Arundinaria gigantea(9)
+
+Bipartitions found in one or more trees and frequency of occurrence:
+
+         1         2      2
+123456789012345678901234567          Freq        %
+--------------------------------------------------
+.......................**.*          1.00  100.00%
+.....................******          1.00  100.00%
+........***.*....**********          0.93   93.14%
+.....***......**...........          0.84   83.59%
+........**.................          0.70   69.53%
+........**..*..............          0.69   68.92%
+..*************************          0.68   68.15%
+..........*......*...******          0.61   61.01%
+........***.*....**.*******          0.60   59.60%
+........**..*.....*........          0.50   50.38%
+.....**........*...........          0.48   48.36%
+........**..*.....*.*......          0.44   44.15%
+.....**....................          0.42   41.93%
+...**...******..***********          0.41   40.79%
+......*........*...........          0.41   40.51%
+...**......*.*..*..........          0.35   34.61%
+.....*.*...................          0.32   32.12%
+..........*.*..............          0.31   31.08%
+........***.*..............          0.31   31.08%
+.....***.......*...........          0.30   30.19%
+.................*...******          0.28   27.73%
+...**......*.*.............          0.26   25.65%
+........***.*.....*........          0.23   23.13%
+........***.*.....*.*......          0.21   20.94%
+...**...******...**********          0.19   19.08%
+........**..*.....***......          0.19   18.86%
+...........*.*.............          0.18   18.37%
+..........*......*..*******          0.17   17.38%
+....*......*.*.............          0.17   16.69%
+.......*......*............          0.16   16.38%
+..***...******..***********          0.15   15.33%
+....*......*.*..*..........          0.15   15.30%
+.....**.......**...........          0.15   14.69%
+....*......*...............          0.13   13.33%
+.....*.*......*............          0.13   13.24%
+......*.......**...........          0.11   11.01%
+...************************          0.11   10.88%
+...**......*...............          0.11   10.64%
+........*****....**********          0.10   10.22%
+.....***......*............          0.10   10.17%
+...**......*....*..........          0.10    9.53%
+...*....***.*....**********          0.09    9.28%
+........***.*.....***......          0.09    9.26%
+..*..******.*.**.**********          0.09    8.52%
+....*......*....*..........          0.08    8.47%
+.....***......***..........          0.08    8.23%
+...*****...*.****..........          0.08    7.59%
+..**************.**********          0.07    7.43%
+.................*..*******          0.07    7.02%
+..*.....***.*....**********          0.07    6.92%
+...........*....*..........          0.06    6.26%
+.............*..*..........          0.06    6.02%
+....****...*.****..........          0.05    5.49%
+...**........*..*..........          0.05    5.45%
+........***.**...**********          0.05    5.28%
+...*............*..........          0.05    5.16%
+..*..***......**...........          0.05    5.03%
+...****.******.************          0.04    4.47%
+....*...*****....**********          0.04    4.34%
+...*.........*..*..........          0.04    4.17%
+...........*.*..*..........          0.04    4.16%
+...*....***.**...**********          0.04    4.07%
+....****...*..***..........          0.04    3.82%
+..*****.******.************          0.04    3.72%
+.....**........**..........          0.04    3.70%
+...****....*.*.**..........          0.04    3.64%
+...*****...*..***..........          0.03    3.42%
+...**.*....*.*.**..........          0.03    3.31%
+...**...*****....**********          0.03    3.20%
+....*...******...**********          0.03    3.19%
+...**.*.******.************          0.03    3.16%
+.....******.*.**.**********          0.03    3.16%
+..***...******...**********          0.03    3.13%
+..**....***.*....**********          0.03    3.06%
+....***....*.*.**..........          0.03    2.81%
+..***.*.******.************          0.03    2.57%
+......*........**..........          0.02    2.45%
+.....*........*............          0.02    2.05%
+..**.******.*.**.**********          0.02    1.92%
+....***....*...**..........          0.02    1.88%
+..*.....***.**...**********          0.02    1.82%
+...****....*...**..........          0.02    1.70%
+....*.*....*.*.**..........          0.02    1.67%
+....*........*..*..........          0.02    1.58%
+....*...******..***********          0.02    1.58%
+...**...........*..........          0.02    1.57%
+...**...*****...***********          0.02    1.57%
+..*..******.****.**********          0.01    1.33%
+...*****...*.***...........          0.01    1.31%
+..**....***.**...**********          0.01    1.31%
+....*.*....*...**..........          0.01    1.07%
+...**.*....*...**..........          0.01    1.03%
+....****...*.***...........          0.01    0.93%
+...**........*.............          0.01    0.92%
+...*************.**********          0.01    0.82%
+...****....*.*.*...........          0.01    0.81%
+....*...........*..........          0.01    0.79%
+....*...*****...***********          0.01    0.79%
+...**......*.*.**..........          0.01    0.78%
+...**......................          0.01    0.74%
+...**.*....*.*.*...........          0.01    0.74%
+....*........*.............          0.01    0.73%
+..**.******.****.**********          0.01    0.68%
+......**......**...........          0.01    0.67%
+....***....*.*.*...........          0.01    0.61%
+...*****.....****..........          0.01    0.59%
+...*****...*.*.**..........          0.01    0.58%
+....***********************          0.01    0.56%
+....****.....****..........          0.01    0.55%
+...**********.*************          0.01    0.54%
+...*****......***..........          0.01    0.54%
+....*********.*************          0.01    0.51%
+....****......***..........          0.01    0.50%
+...*****...*..**...........          0.00    0.49%
+....****...*..**...........          0.00    0.45%
+..*....****.*.*..**********          0.00    0.43%
+.....*..***.*....**********          0.00    0.41%
+..*..*.****.*.*..**********          0.00    0.40%
+....*......*.*.**..........          0.00    0.33%
+.....*.****.*.*..**********          0.00    0.33%
+...****....*...*...........          0.00    0.32%
+....****...*.*.**..........          0.00    0.32%
+....*.*....*.*.*...........          0.00    0.31%
+..**...****.*.*..**********          0.00    0.30%
+....***....*...*...........          0.00    0.29%
+...****.******.*.**********          0.00    0.29%
+...**.*.******.*.**********          0.00    0.29%
+.....*.****.*....**********          0.00    0.29%
+...**.*....*.****..........          0.00    0.28%
+...***********.************          0.00    0.26%
+...****......*.**..........          0.00    0.25%
+...**.*......*.**..........          0.00    0.25%
+....***......*.**..........          0.00    0.25%
+....***.******.************          0.00    0.25%
+...****........**..........          0.00    0.24%
+...****.*****..************          0.00    0.24%
+...**...******.************          0.00    0.24%
+...****....*.****..........          0.00    0.24%
+....***........**..........          0.00    0.23%
+....***.*****..************          0.00    0.23%
+....***....*.****..........          0.00    0.19%
+...**.*....*...*...........          0.00    0.17%
+...**......*...**..........          0.00    0.17%
+....*......*...**..........          0.00    0.17%
+.....******.*..*.**********          0.00    0.17%
+...*****...*...**..........          0.00    0.16%
+....****...*...**..........          0.00    0.16%
+..*....****.***..**********          0.00    0.16%
+..**...****.***..**********          0.00    0.16%
+..**.*.****.*.*..**********          0.00    0.15%
+...**.*........**..........          0.00    0.14%
+...**.*.*****..************          0.00    0.14%
+....*.*....*...*...........          0.00    0.13%
+....*.*......*.**..........          0.00    0.13%
+....*.*.******.************          0.00    0.13%
+....*.*........**..........          0.00    0.12%
+....*.*.*****..************          0.00    0.12%
+....*.*....*.****..........          0.00    0.11%
+...****.*******************          0.00    0.10%
+..*....*......*............          0.00    0.10%
+...**.*.*******************          0.00    0.10%
+....***....*..***..........          0.00    0.10%
+..*..*.*......*............          0.00    0.09%
+...****....*..***..........          0.00    0.09%
+..*..*.****.***..**********          0.00    0.08%
+..**.*.****.***..**********          0.00    0.07%
+.......****.*.*..**********          0.00    0.07%
+.....******.*.*..**********          0.00    0.07%
+...**.*....*..***..........          0.00    0.06%
+....*.*....*..***..........          0.00    0.05%
+...*.******.*.**.**********          0.00    0.05%
+...**.**...*.****..........          0.00    0.04%
+.....******.****.**********          0.00    0.03%
+....*.**...*.****..........          0.00    0.01%
+...*.******.****.**********          0.00    0.01%
+...*.*.****.*.*..**********          0.00    0.01%
+....*.**...*..***..........          0.00    0.01%
+...**.**...*..***..........          0.00    0.01%
+.....*.****.***..**********          0.00    0.01%
+...*.*.****.***..**********          0.00    0.01%
+..............*.*..........          0.00    0.00%
+......**.......*...........          0.00    0.00%
+...***********.*.**********          0.00    0.00%
+..************.*.**********          0.00    0.00%
+
+Consensus tree(s) written to treefile: ~/eeob563/bamboobootMajRule.tre
+
+paup> log stop;
+
+Logging of output to file "bamboo_bootstrap.log" discontinued.
+
+paup> quit;
+[mcmurch@hpc-class eeob563]$ ls
+as6-log.txt             hiv-avgs2.mcmc     hiv-avgs2.vstat  hiv-gtravg.con.tre  hiv-gtravg.trprobs  hiv.nxs.run2.t
+bamboobootMajRule.tre   hiv-avgs2.mstat    hivavgs.ckp      hiv-gtravg.lstat    hiv-gtravg.tstat    hiv.nxs.ss
+bamboo_bootstrap.log    hiv-avgs2.parts    hivavgs.ckp~     hiv-gtravg.mcmc     hiv-gtravg.vstat    hiv-prior.ckp
+bambooboot.tre          hiv-avgs2.pstat    hivavgs.mcmc     hiv-gtravg.mstat    hiv.nxs             hiv-prior.ckp~
+bamboo.txt              hiv-avgs2.run1.p   hivavgs.run1.p   hiv-gtravg.parts    hiv.nxs.ckp         hiv-prior.mcmc
+bootMajRulebamboo.tree  hiv-avgs2.run1.t   hivavgs.run1.t   hiv-gtravg.pstat    hiv.nxs.ckp~        hiv-prior.p
+hiv-avgs2.ckp           hiv-avgs2.run2.p   hivavgs.run2.p   hiv-gtravg.run1.p   hiv.nxs.mcmc        hiv-prior.t
+hiv-avgs2.ckp~          hiv-avgs2.run2.t   hivavgs.run2.t   hiv-gtravg.run1.t   hiv.nxs.run1.p      lab5
+hiv-avgs2.con.tre       hiv-avgs2.trprobs  hiv-gtravg.ckp   hiv-gtravg.run2.p   hiv.nxs.run1.t      outlinefinal.md
+hiv-avgs2.lstat         hiv-avgs2.tstat    hiv-gtravg.ckp~  hiv-gtravg.run2.t   hiv.nxs.run2.p      README.md
+[mcmurch@hpc-class eeob563]$ cat bamboobootMajRule.tre
+#NEXUS
+
+Begin trees;  [Treefile saved Tue Apr  7 16:03:08 2020]
+[!
+>Consensus of 50000 trees
+>
+>Source of trees from which consensus(es) calculated...
+>
+>Processing TREES block from file: ~/eeob563/bambooboot.tre
+>  Keeping: trees from file (replacing any trees already in memory)
+>
+>  50000 trees read from file
+>
+>  Time used = 5.39 sec (CPU time = 0.83 sec)
+]
+        tree MajRule = [&U] (((((((Neurolepis_asymmetrica,Neurolepis_nana)68.146,Neurolepis_rigida,Neurolepis_villosa,Neurolepis_aristata,(Neurolepis_elata,Neurolepis_nobilis,Neurolepis_stuebelii,Neurolepis_aperta,Neurolepis_weberbaueri)83.588,Guadua_angustifolia,Neurolepis_virgata,Neurolepis_pittieri)93.136,Chusquea_tessellata)59.6,(Rhipidocladum_pittieri,Chusquea_serpens,(Chusquea_bradei,Chusquea_oligophylla,(Chusquea_oxylepis,Chusquea_bambusoides,Chusquea_urelytra)100,Chusquea_arachniformis)100)61.008,Chusquea_scandens)50.384,Chusquea_coronalis)68.924,Otatea_acuminata)69.528,Bambusa_vulgaris,Arundinaria_gigantea)0;
+end;
+[mcmurch@hpc-class eeob563]$
