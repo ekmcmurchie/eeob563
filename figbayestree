@@ -1,0 +1,129 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=27;
+	taxlabels
+	Arundinaria_gigantea
+	Bambusa_vulgaris
+	Chusquea_arachniformis
+	Chusquea_bambusoides
+	Chusquea_bradei
+	Chusquea_coronalis
+	Chusquea_oligophylla
+	Chusquea_oxylepis
+	Chusquea_scandens
+	Chusquea_serpens
+	Chusquea_tessellata
+	Chusquea_urelytra
+	Guadua_angustifolia
+	Neurolepis_aperta
+	Neurolepis_aristata
+	Neurolepis_asymmetrica
+	Neurolepis_elata
+	Neurolepis_nana
+	Neurolepis_nobilis
+	Neurolepis_pittieri
+	Neurolepis_rigida
+	Neurolepis_stuebelii
+	Neurolepis_villosa
+	Neurolepis_virgata
+	Neurolepis_weberbaueri
+	Otatea_acuminata
+	Rhipidocladum_pittieri
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&U] (Arundinaria_gigantea[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.050203156,length_median=0.03500138,length_95%HPD={3.709292E-5,0.146901}]:0.035001,Bambusa_vulgaris[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.137017745,length_median=0.1217234,length_95%HPD={3.989525E-4,0.3110593}]:0.121723,Rhipidocladum_pittieri[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.22731118,length_median=0.2069592,length_95%HPD={0.009532467,0.4708887}]:0.206959,Guadua_angustifolia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.14400876,length_median=0.1209294,length_95%HPD={2.833658E-4,0.3556935}]:0.120929,Otatea_acuminata[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0853626638,length_median=0.06833285,length_95%HPD={1.612268E-4,0.2233741}]:0.068333,((Neurolepis_asymmetrica[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.077868239,length_median=0.06072661,length_95%HPD={6.429027E-5,0.2109265}]:0.060727,Neurolepis_nana[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0498739637,length_median=0.03779939,length_95%HPD={4.673076E-6,0.1432393}]:0.037799,Neurolepis_rigida[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0580636888,length_median=0.04248628,length_95%HPD={9.925281E-5,0.1683316}]:0.042486,Neurolepis_villosa[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0792765489,length_median=0.06166073,length_95%HPD={1.270305E-4,0.2057578}]:0.061661,Neurolepis_aristata[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0668308623,length_median=0.04398379,length_95%HPD={9.196622E-5,0.2052624}]:0.043984,Neurolepis_elata[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.104003011,length_median=0.08431675,length_95%HPD={5.43083E-5,0.2573565}]:0.084317,Neurolepis_nobilis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0958561684,length_median=0.07837863,length_95%HPD={5.487743E-5,0.2470188}]:0.078379,Neurolepis_stuebelii[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.100240605,length_median=0.08034385,length_95%HPD={5.918767E-6,0.2559021}]:0.080344,Neurolepis_virgata[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.189013142,length_median=0.1639901,length_95%HPD={0.01031445,0.4123203}]:0.16399,(Neurolepis_aperta[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.107347747,length_median=0.08755875,length_95%HPD={1.531363E-4,0.2762296}]:0.087559,Neurolepis_pittieri[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.102188681,length_median=0.08588659,length_95%HPD={2.008774E-4,0.2549793}]:0.085887)[&prob=0.622398002,prob_stddev=0.00176629504,prob_range={0.621149042,0.623646961},prob(percent)="62",prob+-sd="62+-0",length_mean=0.127767415,length_median=0.1105166,length_95%HPD={0.004354412,0.2812693}]:0.110517,Neurolepis_weberbaueri[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0607462484,length_median=0.04158165,length_95%HPD={3.996074E-5,0.1881575}]:0.041582)[&prob=0.606577852,prob_stddev=0.0406247859,prob_range={0.57785179,0.635303913},prob(percent)="61",prob+-sd="61+-4",length_mean=0.185280648,length_median=0.1610109,length_95%HPD={0.008453799,0.4168815}]:0.161011,(Chusquea_serpens[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.11074265,length_median=0.09340691,length_95%HPD={1.119155E-4,0.2603159}]:0.093407,((((Chusquea_bradei[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0365356716,length_median=0.0247268,length_95%HPD={6.306441E-5,0.1058541}]:0.024727,Chusquea_arachniformis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0345648554,length_median=0.02259126,length_95%HPD={2.540197E-5,0.103849}]:0.022591)[&prob=0.651124063,prob_stddev=0.00824271019,prob_range={0.645295587,0.65695254},prob(percent)="65",prob+-sd="65+-1",length_mean=0.0657182043,length_median=0.05095364,length_95%HPD={1.201121E-4,0.1794623}]:0.050954,Chusquea_urelytra[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0474176209,length_median=0.03503102,length_95%HPD={5.63032E-5,0.1330483}]:0.035031)[&prob=0.574104913,prob_stddev=0.00412135509,prob_range={0.571190674,0.577019151},prob(percent)="57",prob+-sd="57+-0",length_mean=0.0720484957,length_median=0.05779915,length_95%HPD={7.003677E-4,0.1883936}]:0.057799,(Chusquea_oxylepis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0357999693,length_median=0.02331537,length_95%HPD={3.225204E-6,0.1143126}]:0.023315,Chusquea_bambusoides[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0354314171,length_median=0.02323119,length_95%HPD={6.658764E-5,0.1095979}]:0.023231)[&prob=0.513738551,prob_stddev=0.00824271019,prob_range={0.507910075,0.519567027},prob(percent)="51",prob+-sd="51+-1",length_mean=0.0620861326,length_median=0.04726269,length_95%HPD={3.369938E-6,0.1731701}]:0.047263)[&prob=0.721898418,prob_stddev=0.0141303603,prob_range={0.711906744,0.731890092},prob(percent)="72",prob+-sd="72+-1",length_mean=0.117438646,length_median=0.1022007,length_95%HPD={1.752832E-4,0.279669}]:0.102201,Chusquea_oligophylla[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0688572053,length_median=0.0526128,length_95%HPD={1.043487E-5,0.1960368}]:0.052613)[&prob=0.576602831,prob_stddev=0.00294382507,prob_range={0.574521232,0.57868443},prob(percent)="58",prob+-sd="58+-0",length_mean=0.115623861,length_median=0.1005995,length_95%HPD={1.251567E-4,0.2808735}]:0.1006)[&prob=0.583263947,prob_stddev=0.0182517154,prob_range={0.570358035,0.596169858},prob(percent)="58",prob+-sd="58+-2",length_mean=0.149231645,length_median=0.1241271,length_95%HPD={2.677039E-4,0.3544188}]:0.124127,Chusquea_coronalis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0795787873,length_median=0.06457072,length_95%HPD={2.478768E-6,0.2045961}]:0.064571,Chusquea_tessellata[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0759259944,length_median=0.05910323,length_95%HPD={2.447552E-5,0.2120449}]:0.059103,Chusquea_scandens[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0548212221,length_median=0.04097535,length_95%HPD={2.301685E-6,0.1488029}]:0.040975)[&prob=0.932972523,prob_stddev=0.00765394518,prob_range={0.927560366,0.938384679},prob(percent)="93",prob+-sd="93+-1",length_mean=0.263837587,length_median=0.2350727,length_95%HPD={0.05102249,0.5761248}]:0.235073);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=4.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="prob(percent)";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=16;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=2;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=18;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
